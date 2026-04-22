@@ -100,7 +100,7 @@ export default function DashboardPage() {
 
       {/* Stat cards — responsive via .stat-grid */}
       <div className="stat-grid">
-        <StatCard icon={Stethoscope} label="Total Doctors"           value={data.totalDoctors}           sub="Medical staff registered" color="#3b82f6" />
+        <StatCard icon={Stethoscope} label="Total Doctors xx"           value={data.totalDoctors}           sub="Medical staff registered" color="#3b82f6" />
         <StatCard icon={Users}       label="Total Patients"           value={data.totalPatients}          sub="Patients in system"       color="#10b981" />
         <StatCard icon={TrendingUp}  label="Avg Patients / Doctor"    value={data.avgPatientsPerDoctor}   sub="Patient distribution"     color="#8b5cf6" />
       </div>

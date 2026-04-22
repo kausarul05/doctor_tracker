@@ -187,7 +187,7 @@ export default function LoginPage() {
             marginTop: '24px', padding: '14px', borderRadius: '10px',
             background: 'var(--bg-3)', border: '1px solid var(--border)',
           }}>
-            <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '6px', fontWeight: '500' }}>Demo Credentials</p>
+            <p style={{ fontSize: '12px', color: 'var(--text-muted)', marginBottom: '6px', fontWeight: '500' }}>Login Credentials</p>
             <p style={{ fontSize: '13px', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>
               admin@doctortracker.com
             </p>

@@ -144,7 +144,7 @@ export default function DoctorsPage() {
             style={{ fontSize: '13px', padding: '10px 16px', whiteSpace: 'nowrap' }}
           >
             <Filter size={14} />
-            Filters
+            Filters xx
             {hasFilters && <span style={{ background: 'rgba(255,255,255,0.2)', borderRadius: '20px', padding: '1px 6px', fontSize: '11px' }}>{[filterSpec, filterHospital, dateFrom, dateTo].filter(Boolean).length}</span>}
             <ChevronDown size={14} style={{ transform: showFilters ? 'rotate(180deg)' : 'none', transition: '0.2s' }} />
           </button>

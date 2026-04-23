@@ -65,7 +65,7 @@ function PatientModal({
 
             {/* Age */}
             <div>
-              <label style={labelStyle}>Agee *</label>
+              <label style={labelStyle}>Age *</label>
               <input type="number" min="0" max="150" value={form.age} onChange={e => setForm({ ...form, age: e.target.value })} placeholder="35" required className="input-field" />
             </div>
 

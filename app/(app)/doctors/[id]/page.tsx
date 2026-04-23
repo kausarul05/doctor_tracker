@@ -84,7 +84,7 @@ export default function DoctorDetailPage() {
         marginBottom: '24px', padding: 0,
       }}>
         <ArrowLeft size={16} />
-        Back to Doctorss
+        Back to Doctors
       </button>
 
       {/* Doctor Card */}
